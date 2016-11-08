@@ -1,28 +1,27 @@
-.box
-{
+
+
+.caja{
 	border: 1px solid black;
 	height: 100px;
 	width:  100px;
 	background-color: #77737A;
 	margin-top:5px; 
 }
-.conten
-{
+.container{
 	border: 1px solid black;
 	padding: 9px 7px 10px 10px;
 	display: inline-block;
 	margin-top: 6px;
 	margin-bottom: 10px ;  
-	background-color: #77737A;                    : 
-	
+	background-color: #77737A;                    
 }
-.conten.box
-{
+
+.container, .box{
 	display: inline-block;
 	margin-right:8px;
 }
-.boxIn
-{
+
+.box{
 	border: 1px solid black;
 	height: 100px;
 	width:  100px;
